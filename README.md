@@ -1,11 +1,17 @@
 # My First Docker Demo Project
 
-This is a sample ASP.NET Core project containing a DockerFile to run the application within a docker container 
+This is a sample ASP.NET Core project containing a DockerFile to run the application within a docker container.
 
 
 # Disclaimer
 
 The following commands have been inspired from the Pluralsight course related to docker containers and AKS
+
+
+# Pre-requisites
+.NET Core, Docker, Azure subscription
+
+# Locally build and run in docker container
 
 dotnet publish -c Release 
 
