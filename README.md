@@ -11,7 +11,7 @@ The following commands have been inspired from the Pluralsight course related to
 # Pre-requisites
 .NET Core, Docker, Azure subscription
 
-# Locally build and run in docker container
+# Locally build and run in docker container 
 
 dotnet publish -c Release 
 
