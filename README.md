@@ -27,13 +27,13 @@ acrname=pscontainerreg
 aciname=pscontainers
 location=NorthCentralUS
 
-### login to Azure from the CLI (optional if done through Visual Studio)
+#### login to Azure from the CLI (optional if done through Visual Studio)
 az login
 
-use a resource group that has been provisioned in Azure (to be created in the Azure portal if not done)
+# use a resource group that has been provisioned in Azure (to be created in the Azure portal if not done)
 
 
-# create the container registry
+## create the container registry (reverted test)
 We have creaed a container registry called ILOContainerRegistry (login server url is ilocontainerregistry.azurecr.io)
 
 docker login ilocontainerregistry.azurecr.io (UserName and Password of Azure Container Registry (ACR) will be prompted)
