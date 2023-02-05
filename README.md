@@ -27,10 +27,10 @@ acrname=pscontainerreg
 aciname=pscontainers
 location=NorthCentralUS
 
-### login to Azure from the CLI (optional if done through Visual Studio)
+# login to Azure from the CLI (optional if done through Visual Studio)
 az login
 
-use a resource group that has been provisioned in Azure (to be created in the Azure portal if not done)
+# use a resource group that has been provisioned in Azure (to be created in the Azure portal if not done)
 
 
 # create the container registry
